@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--  Local setup 
+	
+	<persistence-unit name="punchlist_pu" transaction-type="RESOURCE_LOCAL">
+	
+        <non-jta-data-source>java:/comp/env/jdbc/punchlist</non-jta-data-source>
+
+		<class>com.jentrent.punchlist.entity.Account</class>
+		<class>com.jentrent.punchlist.entity.Task</class>
+
+		<properties>
+		
+			<property name="hibernate.default_schema" value="punchlist"/>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="false" />
+
+			 
+		</properties>
+
+	</persistence-unit>
+	
+	-->
+
+	<!-- Heroku setup -->
+	
+	<persistence-unit name="punchlist_pu" transaction-type="RESOURCE_LOCAL">
+
+		<class>com.jentrent.punchlist.entity.Account</class>
+		<class>com.jentrent.punchlist.entity.Task</class>
+
+		<properties>
+		
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-34-235-110-253.compute-1.amazonaws.com:5432/dfsjnmkpvbbsip?sslmode=require&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory"/>
+            <property name="javax.persistence.jdbc.user" value="myawabdvrojssz"/>
+            <property name="javax.persistence.jdbc.password" value="f8e8a49e436a15d4d761a35dadf1c7107e856252673449f408fa0a1265ed26c4"/>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.default_schema" value="punchlist"/>
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="false" />
+			
+		</properties>
+
+	</persistence-unit>
+	
+</persistence>
