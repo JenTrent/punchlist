@@ -28,6 +28,9 @@
 							<div class="row justify-content-center">
 								<div class="col-auto">
 									<table class="table mb-0">
+									
+										<p:messages id="messages" closable="true"/>
+									
 										<form method="post" action="<%= request.getContextPath() %>/AccountController">
 											<input type="hidden" name="cmd" value="createAccount">
 
