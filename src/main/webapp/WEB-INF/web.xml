@@ -4,6 +4,10 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1">
 
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+	
 	<servlet>
 		<servlet-name>AccountController</servlet-name>
 		<servlet-class>com.jentrent.punchlist.web.AccountController</servlet-class>
@@ -52,15 +56,11 @@
 	</filter-mapping>
 
 	<resource-ref>
-		<description>PunchList Database</description>
-		<res-ref-name>jdbc/punchlist</res-ref-name>
+		<description>Punchlist Datasource</description>
+		<res-ref-name>jdbc/jentrentDB</res-ref-name>
 		<res-type>javax.sql.DataSource</res-type>
 		<res-auth>Container</res-auth>
 	</resource-ref>
-
-	<welcome-file-list>
-		<welcome-file>login.jsp</welcome-file>
-	</welcome-file-list>
 
 </web-app>
 
