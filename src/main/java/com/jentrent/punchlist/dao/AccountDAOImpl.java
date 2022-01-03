@@ -108,6 +108,7 @@ public class AccountDAOImpl extends BaseDAO implements AccountDAO{
 		return rowsUpdated;
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Account> listAccounts(){
 
 		getEm().clear();
