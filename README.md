@@ -12,11 +12,10 @@
 - [Install and Run](#install-and-run)
 	- [Dependencies](#dependencies)
 	- [Setup](#setup)
-- [Future Features](#future-features)
 - [Author](#author)
 
 ## Description
-**Punchlist** is a full-stack Java web application for managing everyday tasks and to-do’s, so you can knock them out quickly and efficiently.  Built with the underlying Servlet API as well as JSPs to better learn and apply the underlying Java web platform, as many legacy Java web apps utilize this approach. The application is designed using the Model-View-Controller (MVC) approach to web apps as well as other well-established object-oriented design patterns.  Punchlist also has a [Rest API](src/main/java/com/jentrent/punchlist/api) for all entity CRUD operations.
+**Punchlist** is a full-stack Java web application for managing everyday tasks and to-do’s, so you can knock them out quickly and efficiently.  Punchlist is built with the underlying Servlet API as well as JSPs to better learn and apply the underlying Java web platform, as many legacy Java web apps utilize this approach. The application is designed using the Model-View-Controller (MVC) approach to web apps as well as other well-established object-oriented design patterns.  Punchlist also has a [Rest API](src/main/java/com/jentrent/punchlist/api) for all entity CRUD operations.
 
 ### Features
 - Create a task in a list
@@ -44,16 +43,14 @@ There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com
 - PostgreSQL database server
 
 ### Setup
-1. Create a postgres user account for DB access. 
+1. Create a postgres user account for DB access
 2. Log into postgres and run the Punchlist DB create script [`punchlist_create.sql`](src/main/resources/sql/punchlist.sql)
 3. Add the DB account/pw to the Test [`persistence.xml`](src/test/resources/META-INF/persistence.xml)
 4. Add the DB account/pw to the main deployment [`persistence.xml`](src/main/resources/META-INF/persistence.xml)
 5. Build the application using the command: `mvn clean install`
-6. Deploy the `target/punchlist-1.0.war` to your app server.
+6. Deploy the `target/punchlist-1.0.war` to your app server
 
 The build will run the complete set of [JUnit Tests](src/test/java/com/jentrent/punchlist/service/test/) verify the setup is working as expected. To skip the tests, add the following to the maven build command:  `-Dmaven.test.skip=true`
-
-- Web look-and-feel updates, including styling
 
 ## Author
 

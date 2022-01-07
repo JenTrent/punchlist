@@ -26,6 +26,14 @@
 
 							<div class="row justify-content-center">
 								<div class="col-auto">
+								
+								<script>
+					  				window.onload = function() {
+					    				document.getElementById('email').setAttribute("placeholder", "TestAccount@test.com");
+					    				document.getElementById('password').setAttribute("placeholder", "test123456789");
+					  				}
+							</script>
+			
 									<table class="table mb-0 table-responsive">
 										<form method="post" action="<%= request.getContextPath() %>/AccountController">
 											<input type="hidden" name="cmd" value="attemptLogin">
