@@ -33,7 +33,7 @@ Punchlist has the following set of task list features:
 - Default DB server: PostgreSQL
 
 ## Install and Run
-There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> for you to try it out. If you would like to setup and run the project yourself, please use the section below.
+There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> for you to try it out. Or, if you would like to setup and run the project yourself, please use the section below.
 
 ### Dependencies
 
@@ -44,13 +44,13 @@ There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com
 
 ### Setup
 1. Create a postgres user account for DB access
-2. Log into postgres and run the Punchlist DB create script [`punchlist_create.sql`](src/main/resources/sql/punchlist.sql)
+2. Log into postgres and run the Punchlist DB create script [`punchlist_create.sql`](src/main/resources/sql/punchlist_create.sql)
 3. Add the DB account/pw to the Test [`persistence.xml`](src/test/resources/META-INF/persistence.xml)
 4. Add the DB account/pw to the main deployment [`persistence.xml`](src/main/resources/META-INF/persistence.xml)
 5. Build the application using the command: `mvn clean install`
 6. Deploy the `target/punchlist-1.0.war` to your app server
 
-The build will run the complete set of [JUnit Tests](src/test/java/com/jentrent/punchlist/service/test/) verify the setup is working as expected. To skip the tests, add the following to the maven build command:  `-Dmaven.test.skip=true`
+The build will run the complete set of [JUnit Tests](src/test/java/com/jentrent/punchlist/service/test/) to verify the setup is working as expected. To skip these tests, add the following to the maven build command:  `-Dmaven.test.skip=true`
 
 ## Author
 
