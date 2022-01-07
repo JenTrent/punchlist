@@ -1,8 +1,8 @@
 <img src="readme.jpg" width="165" height="35">
 
 	 
-<a href="#key-features">Video Demo</a> •
-<a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> 
+<!-- <a href="#key-features">Video Demo</a> • -->
+<a href="http://jentrent.com/punchlist" target="_blank">Live Demo Site - Try it Yourself!</a> 
 
 ## Table of Contents
 - [Description](#description)
@@ -14,9 +14,10 @@
 - [Author](#author)
 
 ## Description
-**Punchlist** is a full-stack Java web application for managing everyday tasks and to-do’s, so you can knock them out quickly and efficiently.  Punchlist is built with the underlying Servlet API as well as JSPs to better learn and apply the underlying Java web platform, as many legacy Java web apps utilize this approach. The application is designed using the Model-View-Controller (MVC) approach to web apps as well as other well-established object-oriented design patterns.  Punchlist also has a [Rest API](src/main/java/com/jentrent/punchlist/api) for all entity CRUD operations.
+**Punchlist** is a full-stack, Java web application for managing everyday tasks and to-do’s, so you can knock them out quickly and efficiently.  Punchlist is built with the underlying Servlet API as well as JSPs to better learn and apply the underlying Java web platform, as many legacy Java web apps utilize this approach. The application is designed using the Model-View-Controller (MVC) pattern as well as other well-established object-oriented design patterns.  Punchlist also has a [Rest API](src/main/java/com/jentrent/punchlist/api) for all entity CRUD operations.
 
 ### Features
+Punchlist has the following set of task list features:
 - Create a task in a list
 - Update a task in a list
 - Mark a task as completed
@@ -32,7 +33,7 @@
 - Default DB server: PostgreSQL
 
 ## Install and Run
-There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a>. To setup and run the project yourself, use the following:
+There is <a href="#key-features">Video Demo</a> and <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> for you to try it out. If you would like to setup and run the project yourself, please use the section below.
 
 ### Dependencies
 
