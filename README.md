@@ -1,6 +1,5 @@
-<img src="src/main/webapp/images/check-square-regular.ico" 
-	 alt="Punchlist" 
-	 width="45" height="45">
+<img src="readme.jpg" width="165" height="35">
+
 	 
 <a href="#key-features">Video Demo</a> •
 <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> 
