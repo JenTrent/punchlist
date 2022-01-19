@@ -2,7 +2,7 @@
 
 	 
 <!-- <a href="#key-features">Video Demo</a> • -->
-<a href="http://jentrent.com/punchlist" target="_blank">Live Demo Site - Try it Yourself!</a> 
+<a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> 
 
 ## Table of Contents
 - [Description](#description)
