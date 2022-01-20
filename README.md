@@ -1,7 +1,7 @@
 <img src="readme.jpg" width="165" height="35">
 
 	 
-<a href="http://jentrent.com/?video=punchlist target="_blank">Video Demo</a> •
+<a href="http://jentrent.com/?video=punchlist" target="_blank">Video Demo</a> •
 <a href="http://jentrent.com/punchlist" target="_blank">Live Site</a> 
 
 ## Table of Contents
