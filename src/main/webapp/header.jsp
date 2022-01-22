@@ -69,6 +69,15 @@
 	</script>
 	
 	<title>Punchlist</title>
+	
+	<!-- Website Thumbnail Metatags -->
+	    <meta property="og:title" content="Punchlist"/>
+	    <meta property="og:type" content="website"/>
+	    <meta property="og:description" content="Punchlist is a full-stack, Java web application for managing everyday tasks and to-do’s, so you can knock them out quickly and efficiently. "/>
+	    <meta name="image" property="og:image" content="/images/punchlist-log.png"/>
+	    <meta property="og:url" content="http://www.jentrent.com/punchlist/"/>
+	    <meta property="og:image:width" content="1200" />
+	    <meta property="og:image:height" content="627" />
 
 </head>
 
